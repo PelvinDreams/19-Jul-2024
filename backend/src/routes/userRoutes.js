@@ -42,7 +42,7 @@ router.get("/login-status", userLoginStatus);
 // email verification
 router.post("/verify-email", protect, verifyEmail);
 
-// veriify user --> email verification
+// verify user --> email verification
 router.post("/verify-user/:verificationToken", verifyUser);
 
 // forgot password

@@ -22,8 +22,8 @@ app.use(
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
-
-// error handler middleware
+ 
+// error handler middleware 
 app.use(errorHandler);
 
 //routes
